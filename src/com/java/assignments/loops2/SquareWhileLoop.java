@@ -11,9 +11,9 @@ public class SquareWhileLoop {
 		while( i <100){
 		Scanner s = new Scanner(System.in);
 		System.out.println( "Enter an integer " );	
-        no = s.nextInt();        
-        sum = (no*no) +sum;
-        System.out.println( "Sum: " +sum);	
+        	no = s.nextInt();        
+        	sum = (no*no) +sum;
+       		System.out.println( "Sum: " +sum);	
 		}
 
 	}
