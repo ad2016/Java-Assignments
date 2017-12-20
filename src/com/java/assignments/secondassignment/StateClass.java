@@ -1,23 +1,23 @@
 package com.java.assignments.secondassignment;
-import java.util.ArrayList;
+import java.util.*;
 
 public class StateClass {
-
-	String stateName;
-	int stateCode;
-	String stateCapitol;
 	
-	ArrayList<String> states = new ArrayList<String>();
-	states.add("California");
-	states.add("Texas");
-	states.add("Florida");
-	states.add("Alaska");
-	states.add("Virginia");
 	
-	public static void main(String[] args) {
-		
-		
-
-	}
-
+   String stateName, stateCapital;
+   int stateCode;
+   
+   
+   StateClass(String sName, String sCapital, int sZipcode){
+	   stateName = sName;
+	   stateCapital = sCapital;
+	   stateCode = sZipcode;
+   }
+   public String toString(){
+		String s = " State name: "+ this.stateName + "  State Capital: " + this.stateCapital + "  State Zipcode: " + this.stateCode; 
+		return s;
+   }
 }
+
+
+
