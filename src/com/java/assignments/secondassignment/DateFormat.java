@@ -17,14 +17,14 @@ public class DateFormat {
 	    
 //	    SimpleDateFormat format2 = new SimpleDateFormat("dd day month yyyy");
 	    
-	    try{
-	    SimpleDateFormat format1 = new SimpleDateFormat("mm/dd/yy");
+//	    try{
+//	    SimpleDateFormat format1 = new SimpleDateFormat("mm/dd/yy");
 //	    String fDate = format1.parse(userDate);
-	    String formatedDate = format1.parse(userDate);
-	    System.out.println(formatedDate);
-	    }
-	    catch(ParseException e){
-	    	e.printStackTrace();
-	    }	
+//	    String formatedDate = format1.parse(userDate);
+//	    System.out.println(formatedDate);
+//	    }
+//	    catch(ParseException e){
+//	    	e.printStackTrace();
+//	    }	
 	}
 }
